@@ -1,0 +1,124 @@
+.home-header{
+    padding: 0;
+}
+
+.navbar{
+    background: #6b6a6a;
+}
+
+.profile--card{
+    border-radius: 0.8rem;
+    border: none;
+}
+
+.logo-icon{
+    width: 5rem;
+    margin-left: 6rem;
+}
+
+.navbar p{
+    margin-right: 6rem;
+    background: white;
+    padding: 0.6rem;
+    cursor: pointer;
+    background: rgb(224, 46, 46);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.user-profile{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.profile-image{
+    text-align: center;
+    padding: 2rem;
+    background:rgba(4, 109, 112, 0.568);
+    border-top-right-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+    
+
+}
+
+.user-img{
+    width: 8rem;
+    border-radius: 10rem;
+}
+
+.name h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 2.1rem;
+}
+.profile-details h2{
+    text-align: center;
+    color: rgb(68, 67, 67);
+    margin-bottom: 2rem;
+   
+}
+
+.profile-credentials{
+    padding: 0rem 2rem 2rem 2rem;
+}
+.profile-credentials h5{
+    margin-top: 1rem;
+}
+
+.profile-credentials span{
+    color: grey;
+    font-size: 1.2rem; 
+    margin-left: 0.54rem; 
+}
+
+.request-quota-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.request-quota-section button{
+    color: rgb(255, 255, 255);
+    background: green;
+    padding: 0.7rem 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    border: none;
+}
+
+.request-quota-section button:hover{
+    border: 2px solid green;
+    background: white;
+    color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-icon{
+        width: 3.5rem;
+        margin-left: 1rem;
+    }
+    .navbar p{
+        margin-right: 1rem;
+       margin-top: 0.8rem;
+        padding: 0.4rem;
+        cursor: pointer;
+        background: rgb(224, 46, 46);
+        color: white;
+    }
+    .user-profile{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+    .request-quota-section button{
+        color: rgb(255, 255, 255);
+        background: green;
+        padding: 0.8rem;
+        font-weight: normal;
+        letter-spacing: 0;
+        border: none;
+    }
+  }
